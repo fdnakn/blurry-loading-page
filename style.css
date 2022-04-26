@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.bg{
+    background-image: url("https://i4.hurimg.com/i/hurriyet/75/1200x675/5c2dbb61c03c0e26cc435da5.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text{
+    font-size: 75px;
+    color: #fff;
+}
